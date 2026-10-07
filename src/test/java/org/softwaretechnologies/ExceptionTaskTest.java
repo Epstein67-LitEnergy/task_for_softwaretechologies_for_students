@@ -15,6 +15,7 @@ class ExceptionTaskTest {
     static ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
 
+
     @BeforeEach
     void setUp() {
         System.setOut(new PrintStream(outContent));
